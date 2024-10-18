@@ -370,8 +370,8 @@ select distinct club, count(firstname) as num_playerPerclub
 from players_description
 group by club
 order by num_playerperclub desc;
-#Unique nationality in the table and how many players belong to each nationality
 
+#Unique nationality in the table and how many players belong to each nationality
 select distinct nationality, count(firstname) as Nplayer_nationality
 from players_description
 group by nationality
